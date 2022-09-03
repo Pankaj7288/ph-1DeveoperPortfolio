@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            backgroundImage: {
+              "top-banner": "url('./images/top-banner.png')",
+              "dream-bg": "url('./images/dream-bg.png')",
+              "exp-bg": "url('./images/exp-bg.png')",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="font-[Poppins]">
+    <section class="flex bg-top-banner bg-no-repeat">
+      <div class="w-1/2 p-20">
+        <h1 class="text-5xl leading-[3] font-semibold">Welcome to</h1>
+        <h1 class="text-5xl leading-[2.25] font-semibold">
+          <span class="text-orange-500">Peter Paker</span> Website!
+        </h1>
+        <h3 class="leading-[2.75] text-xl font-semibold">
+          Build Climber and Train Stopper
+        </h3>
+        <p class="leading-normal mb-2">
+          You might saw me jumping, climbing buildings, and stopping trains. But
+          nobody pays me a dime for that work. That's why I am learning and
+          mastering web development. I will not stop until I become the Web
+          Development Hero.
+        </p>
+        <a
+          target="_blank"
+          href="#"
+          class="bg-gradient-to-t from-orange-600 to-orange-300 inline-block px-6 py-3 rounded-md font-bold text-slate-100"
+          >Hire Me</a
+        >
+      </div>
+      <div class="w-1/2 p-20">
+        <img class="w-4/5" src="./images/my-bg.png" alt="Piter Poker" />
+      </div>
+    </section>
+    <section class="flex bg-dream-bg bg-no-repeat bg-right-bottom">
+      <div class="w-1/2 p-20">
+        <img class="w-4/5" src="./images/my-bg2.png" alt="Piter Poker" />
+      </div>
+      <div class="w-1/2 p-20">
+        <h1 class="text-5xl leading-[3] font-semibold">Dream Big</h1>
+        <h3 class="leading-[2.75] text-2xl font-semibold">
+          Become a web developer
+        </h3>
+        <p class="leading-normal mb-2">
+          I already learned the basic HTML and CSS. I can build any simple
+          website. I can even teach my grandma how to make simple website. My
+          goal is to build 3 websites and learn advanced topics.
+        </p>
+        <a
+          target="_blank"
+          href="#"
+          class="bg-gradient-to-t from-orange-600 to-orange-300 inline-block px-6 py-3 rounded-md font-bold text-slate-100"
+          >Download Resume</a
+        >
+      </div>
+    </section>
+    <section class="bg-exp-bg bg-no-repeat bg-left mb-20">
+      <h1 class="text-5xl leading-[3] font-semibold min-w-full">Exprences</h1>
+      <div class="flex mx-20 space-x-16">
+        <div
+          class="h-96 mr- p-4 border-l-8 border-l-orange-500 shadow-2xl shadow-black"
+        >
+          <h1 class="text-4xl leading-loose font-semibold min-w-full">
+            Full Stack Web Developer
+          </h1>
+          <h3
+            class="text-xl leading-normal my-4 font-semibold min-w-full text-orange-500"
+          >
+            2021-Present | Pro Level Developer
+          </h3>
+          <p class="text-justify">
+            I am the master of HTML, CSS and Javascript. I know everything
+            needed to make a website function, efficient. I didn't stop with the
+            web. I went beyond with most popular Javascript framework called Vue
+            JS. I even know the deployment, server and security. I will give you
+            100% web solution.
+          </p>
+        </div>
+        <div
+          class="h-96 p-4 border-l-8 border-l-blue-500 shadow-2xl shadow-black"
+        >
+          <h1 class="text-4xl leading-loose font-semibold min-w-full">
+            Full Stack Web Developer
+          </h1>
+          <h3
+            class="text-xl leading-normal my-4 font-semibold min-w-full text-orange-500"
+          >
+            2021-Present | Pro Level Developer
+          </h3>
+          <p class="text-justify">
+            I am the master of HTML, CSS and Javascript. I know everything
+            needed to make a website function, efficient. I didn't stop with the
+            web. I went beyond with most popular Javascript framework called Vue
+            JS. I even know the deployment, server and security. I will give you
+            100% web solution.
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p class="mx-auto mt-28 p-6 text-center">
+        &copy Peter Parker 2023, a Programming Hero initiative
+      </p>
+    </footer>
+  </body>
+</html>
